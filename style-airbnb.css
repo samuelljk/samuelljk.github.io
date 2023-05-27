@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Plus+Jakarta+Sans:wght@200;500;700;800&display=swap");
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  color: #212427;
+}
+/* HEADER */
+.alert {
+  height: 100%;
+}
+.navbar {
+  background-color: white;
+  height: 80px;
+}
+.navbar-brand {
+  font-family: "Outfit", sans-serif;
+  font-size: 32px;
+}
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 0.5em;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 22px;
+    border-left: 1px solid #000000;
+  }
+}
+.btn-login-daftar {
+  --bs-btn-padding-x: 30px;
+  --bs-btn-padding-y: 10px;
+  font-weight: 700;
+}
+.btn-daftar {
+  --bs-btn-color: #ffff;
+  --bs-btn-bg: #085090;
+  --bs-btn-border-color: #085090;
+  --bs-btn-hover-color: #ffff;
+  --bs-btn-hover-bg: #014a8a;
+  --bs-btn-hover-border-color: #014a8a;
+  --bs-btn-active-color: #ffff;
+  --bs-btn-active-bg: #3ea5b2;
+  --bs-btn-active-border-color: #3ea5b2;
+}
+.bi-person-circle {
+  padding-bottom: 3px;
+  padding-right: 5px;
+}
+.navbar-closer {
+  background-color: white;
+  height: 80px;
+}
+
+/* MAIN */
+.home-page {
+  position: relative;
+  height: 720px;
+  width: 100%;
+  background-image: url(images/airbnb.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  filter: brightness(100%);
+  margin: auto;
+  color: white;
+  text-align: left;
+}
+.home-page-title {
+  padding-top: 500px;
+  position: relative;
+  font-size: 50px;
+  font-weight: 800;
+}
+.home-page-order {
+  width: 450px;
+  padding-top: 350px;
+  position: relative;
+  font-size: 50px;
+  font-weight: 800;
+}
+.home-page-order-content {
+  background-color: white;
+  border-radius: 10px;
+}
+.bi-geo-alt {
+  padding-top: 8px;
+  padding-right: 5px;
+}
+.bi-building-fill {
+  padding-top: 8px;
+  padding-right: 5px;
+}
+.form-cari {
+  width: 400px;
+  font-size: 18px;
+}
+.btn-cari {
+  --bs-btn-color: #ffff;
+  --bs-btn-bg: #085090;
+  --bs-btn-border-color: #085090;
+  --bs-btn-hover-color: #ffff;
+  --bs-btn-hover-bg: #014a8a;
+  --bs-btn-hover-border-color: #014a8a;
+  --bs-btn-active-color: #ffff;
+  --bs-btn-active-bg: #3ea5b2;
+  --bs-btn-active-border-color: #3ea5b2;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 20px;
+  height: 15px;
+}
+
+.test {
+  height: 1000px;
+}
