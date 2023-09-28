@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Plus+Jakarta+Sans:wght@200;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500&family=Plus+Jakarta+Sans:wght@200;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500&family=Plus+Jakarta+Sans:wght@200;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Sora:wght@400;500;600;700&display=swap");
+
+body {
+  width: 1440px;
+  height: 720px;
+  flex-shrink: 0;
+  background: #272727;
+}
+/* NAV BAR */
+nav {
+  width: 1440px;
+  height: 127px;
+  flex-shrink: 0;
+}
+.navbar-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  padding-left: 151px;
+}
+.navbar-title span {
+  background: linear-gradient(180deg, #3bf686 0%, #4ca9ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 155px;
+}
+.nav-item {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 80.5px; /* 503.125% */
+  letter-spacing: 1px;
+  padding-left: 65px;
+}
+.nav-link {
+  color: #d1d1d1;
+  font-weight: 600;
+}
+.nav-garis {
+  padding-top: 10px;
+}
+.navbar-line {
+  padding-left: 150px;
+}
+.line-1 {
+  width: 1140px;
+  height: 1px;
+  background: #4d4d4d;
+}
+/* HOME PAGE */
+.home-page {
+  width: 1133px;
+  height: 500px;
+  padding-left: 150px;
+  padding-top: 61px;
+  position: relative;
+}
+.home-page h2 {
+  width: 1029px;
+  font-family: Sora;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 128.571% */
+  letter-spacing: 1px;
+  background: linear-gradient(134deg, #3bf686 40.75%, #4ca9ff 90.52%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home-page h2 span {
+  background: linear-gradient(134deg, #3bf686 40.75%, #4ca9ff 66.63%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Heading/H2 */
+  font-family: Sora;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+.container {
+  display: grid;
+  width: 1133px;
+  grid-template-columns: auto auto auto;
+  padding-top: 63px;
+}
+.profile-pict {
+  width: 179px;
+  height: 179px;
+  margin: 5px 5px;
+  border-radius: 200px;
+  background: linear-gradient(180deg, #3bf686 0%, #4ca9ff 100%);
+  position: relative;
+  color: white;
+}
+.pfp-border {
+  width: 189px;
+  height: 189px;
+  border-radius: 200px;
+  background-color: white;
+}
+.profile-pict img {
+  width: 179px;
+  height: 179px;
+  border-radius: 200px;
+}
+.biography {
+  position: relative;
+  padding-left: 50px;
+  color: white;
+}
+.biography h3 {
+  color: #fbfbfb;
+  /* Heading/H4 */
+  font-family: Sora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 257.143% */
+  letter-spacing: 1px;
+}
+.biography-text {
+  width: 499px;
+  color: #d6d6d6;
+
+  /* Body/Normal */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: 0.252px;
+}
+.biography-text span {
+  color: #4ca9ff;
+
+  /* Body/Bold */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.lets-connect {
+  position: relative;
+  padding-left: 50px;
+  color: white;
+}
+.lets-connect h3 {
+  color: #fbfbfb;
+  /* Heading/H4 */
+  font-family: Sora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 257.143% */
+  letter-spacing: 1px;
+}
+.lc-sosmed {
+  float: left;
+  padding-right: 37px;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
